@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'RobotoBold';
+    src: url(fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url(fonts/Roboto-Italic.ttf) format('truetype');
+}
+
+body{
+    background-color: blue;
+}
+
+h1 {
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 6em;
+}
+
+p {
+    font-family: 'RobotoItalic', sans-serif;
+    font-size: 3em;
+}
