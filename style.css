@@ -9,15 +9,35 @@
 }
 
 body{
-    background-color: blue;
+    background-color: lightgray;
+}
+
+header {
+    background-color: darkolivegreen;
 }
 
 h1 {
     font-family: 'RobotoBold', sans-serif;
-    font-size: 6em;
+    font-size: 3em;
 }
 
+section {
+    background-color: lightblue;
+}
+
+article {
+    background-color: gray;
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 1em;
+}
+
+footer {
+    background-color: darkolivegreen;
+}
+
+/*
 p {
     font-family: 'RobotoItalic', sans-serif;
     font-size: 3em;
 }
+*/
