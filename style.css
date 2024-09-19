@@ -16,19 +16,31 @@ header {
     background-color: darkolivegreen;
 }
 
-h1 {
-    font-family: 'RobotoBold', sans-serif;
-    font-size: 3em;
+nav {
+    text-align: center;
+    
 }
 
-section {
-    background-color: lightblue;
+a {
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 1em;
+    text-align: center;
 }
 
 article {
     background-color: gray;
     font-family: 'RobotoBold', sans-serif;
     font-size: 1em;
+    text-align: center;
+    padding: 100px;
+}
+
+.calltoaction {
+    background-color: lightblue;
 }
 
 footer {
