@@ -9,6 +9,15 @@
 }
 
 
+@font-face {
+    font-family: 'RobotoThin';
+    src: url(fonts/Roboto-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url(fonts/Roboto-Light.ttf) format('truetype');
+}
 
 body{
     background-color: lightgray;
@@ -17,13 +26,17 @@ body{
 
 header {
     background-color: darkolivegreen;
-    margin: 50px;
-    height: 200px;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 250px;
 }
 
-#headerlogo {
+.headerlogo {
     color: white;
-    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-family: 'RobotoBold', sans-serif;
+    padding-top: 10px;
+    font-size: 0.75em;
+    text-align: center;
 }
 
 nav {
@@ -34,69 +47,104 @@ nav {
 a {
     color: white;
     text-decoration: none;
+    font-family: 'RobotoLight', sans-serif;
+    font-size: 0.5em;
 }
 
-#headerimage {
+.headerimage {
     float: inline-end;
+    clear: both;
     margin-top: 25px;
-    margin-right: 50px;
+    margin-right: 10%;
 }
 
-#headerfirstparagraph {
+.headerfirstparagraph {
     color: white;
     margin-left: 50px;
-    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 1em;
 }
 
-#secondheaderheading {
+
+.headersecondparagraph {
     color: white;
     margin-left: 50px;
-    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-family: 'RobotoLight', sans-serif;
+    font-size: 0.75em;
 }
 
-#headersecondparagraph {
-    color: white;
-    margin-left: 50px;
-    font-family: 'Courier New', Courier, monospace, sans-serif;
-}
-
-#headersignupbutton {
+.headersignupbutton {
+    background-color: deepskyblue;
     margin-left: 50px;
     margin-bottom: 25px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 8px;
+    cursor: pointer;
 }
 
 a {
     padding: 10px;
 }
 
-h1 {
-    font-family: 'RobotoBold', sans-serif;
-    font-size: 1em;
-    text-align: center;
-}
+
 
 .firstsection {
     font-family: 'RobotoBold', sans-serif;
     font-size: 1em;
     text-align: center;
-    margin: 50px;
+    margin: 10%;
+}
+
+.firstimage {
+    float: left;
+}
+
+.secondimage {
+    float: right;
 }
 
 article {
     background-color: gray;
-    font-family: 'RobotoBold', sans-serif;
+    font-family: 'RobotoItalic', sans-serif;
     font-size: 1em;
     text-align: center;
-    padding: 100px;
-    margin: 50px;
+    padding: 80px;
+    margin: 10%;
+    text-shadow: 2px 2px 8px black;
 }
 
 .calltoaction {
-    background-color: lightblue;
+    background-color: rgb(57, 141, 224);
     font-family: 'RobotoBold', sans-serif;
     font-size: 1em;
-    text-align: center;
-    margin: 50px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    border-radius: 6px;
+    padding: 2%;
+}
+
+#calltoactionheading {
+    color: white;
+    font-size: 1em;
+}
+
+#calltoactiontext {
+    color: white;
+    font-family: 'RobotoThin';
+}
+
+.signupbutton {
+    border-radius: 6px;
+    background-color: rgb(57, 141, 224);
+    color: white;
+    border: 1px solid white;
+    float: right;
+    vertical-align: middle;
 }
 
 footer {
@@ -104,7 +152,8 @@ footer {
     font-family: 'RobotoBold', sans-serif;
     font-size: 1em;
     text-align: center;
-    margin: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 /*
