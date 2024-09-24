@@ -82,7 +82,7 @@ a {
     border: none;
     color: white;
     font-family: 'RobotoBold', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -164,13 +164,13 @@ cite {
     padding: 2%;
 }
 
-#calltoactionheading {
+.calltoactionheading {
     color: white;
     font-size: 1em;
     margin-left: 50px;
 }
 
-#calltoactiontext {
+.calltoactiontext {
     color: white;
     font-family: 'RobotoThin';
     margin-left: 50px;
@@ -180,7 +180,7 @@ cite {
 .signupbutton {
     background-color: rgb(57, 141, 224);
     font-family: 'RobotoBold', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     color: white;
     border: 1px solid white;
     padding: 4px 13px;
