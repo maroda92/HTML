@@ -90,36 +90,72 @@ a {
     padding: 10px;
 }
 
-
-
 .firstsection {
-    font-family: 'RobotoBold', sans-serif;
-    font-size: 1em;
+    font-family: 'RobotoThin', sans-serif;
+    margin: 5%;
     text-align: center;
-    margin: 10%;
+    min-width: 800px;
+}
+
+h2 {
+    font-family: 'RobotoBold', sans-serif;
+}
+
+.firstimage, .firstimagetext {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    max-width: 800px;
 }
 
 .firstimage {
-    float: left;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.firstimagetext {
+    text-align: left;
+    max-width: 300px;
+    font-size: 0.75em;
+}
+
+.secondimage, .secondimagetext {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    max-width: 800px;
 }
 
 .secondimage {
-    float: right;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.secondimagetext {
+    text-align: left;
+    max-width: 300px;
+    font-size: 0.75em;
 }
 
 article {
     background-color: gray;
     font-family: 'RobotoItalic', sans-serif;
     font-size: 1em;
-    text-align: center;
+    text-align: left;
     padding: 80px;
-    margin: 10%;
+    margin: 5%;
     text-shadow: 2px 2px 8px black;
+}
+
+cite {
+    font-family: 'RobotoBold', sans-serif;
+    float: right;
 }
 
 .calltoaction {
     background-color: rgb(57, 141, 224);
     font-family: 'RobotoBold', sans-serif;
+    text-align: left;
     font-size: 1em;
     margin-right: 25%;
     margin-left: 25%;
@@ -131,34 +167,35 @@ article {
 #calltoactionheading {
     color: white;
     font-size: 1em;
+    margin-left: 50px;
 }
 
 #calltoactiontext {
     color: white;
     font-family: 'RobotoThin';
+    margin-left: 50px;
+    max-width: 250px;
 }
 
 .signupbutton {
-    border-radius: 6px;
     background-color: rgb(57, 141, 224);
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 8px;
     color: white;
     border: 1px solid white;
+    padding: 4px 13px;
+    border-radius: 5px;
     float: right;
-    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 30px;
 }
 
 footer {
     background-color: darkolivegreen;
     font-family: 'RobotoBold', sans-serif;
-    font-size: 1em;
+    font-size: 0.75em;
     text-align: center;
+    padding: 10px;
     margin-right: 10%;
     margin-left: 10%;
 }
-
-/*
-p {
-    font-family: 'RobotoItalic', sans-serif;
-    font-size: 3em;
-}
-*/
