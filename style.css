@@ -8,36 +8,194 @@
     src: url(fonts/Roboto-Italic.ttf) format('truetype');
 }
 
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url(fonts/Roboto-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url(fonts/Roboto-Light.ttf) format('truetype');
+}
+
 body{
     background-color: lightgray;
+    min-width: 800px;
 }
 
 header {
     background-color: darkolivegreen;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 250px;
 }
 
-h1 {
+.headerlogo {
+    color: white;
     font-family: 'RobotoBold', sans-serif;
-    font-size: 3em;
+    padding-top: 10px;
+    font-size: 0.75em;
+    text-align: center;
 }
 
-section {
-    background-color: lightblue;
+nav {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace, sans-serif;
 }
 
-article {
-    background-color: gray;
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'RobotoLight', sans-serif;
+    font-size: 0.5em;
+}
+
+.headerimage {
+    float: inline-end;
+    clear: both;
+    margin-top: 25px;
+    margin-right: 10%;
+}
+
+.headerfirstparagraph {
+    color: white;
+    margin-left: 50px;
     font-family: 'RobotoBold', sans-serif;
     font-size: 1em;
 }
 
-footer {
-    background-color: darkolivegreen;
+
+.headersecondparagraph {
+    color: white;
+    margin-left: 50px;
+    font-family: 'RobotoLight', sans-serif;
+    font-size: 0.75em;
 }
 
-/*
-p {
-    font-family: 'RobotoItalic', sans-serif;
-    font-size: 3em;
+.headersignupbutton {
+    background-color: deepskyblue;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 8px;
+    cursor: pointer;
 }
-*/
+
+a {
+    padding: 10px;
+}
+
+.firstsection {
+    font-family: 'RobotoThin', sans-serif;
+    margin: 5%;
+    text-align: center;
+    min-width: 800px;
+}
+
+h2 {
+    font-family: 'RobotoBold', sans-serif;
+}
+
+.firstimage, .firstimagetext {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    max-width: 800px;
+}
+
+.firstimage {
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.firstimagetext {
+    text-align: left;
+    max-width: 300px;
+    font-size: 0.75em;
+}
+
+.secondimage, .secondimagetext {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    max-width: 800px;
+}
+
+.secondimage {
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.secondimagetext {
+    text-align: left;
+    max-width: 300px;
+    font-size: 0.75em;
+}
+
+article {
+    background-color: gray;
+    font-family: 'RobotoItalic', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    padding: 80px;
+    margin: 5%;
+    text-shadow: 2px 2px 8px black;
+}
+
+cite {
+    font-family: 'RobotoBold', sans-serif;
+    float: right;
+}
+
+.calltoaction {
+    background-color: rgb(57, 141, 224);
+    font-family: 'RobotoBold', sans-serif;
+    text-align: left;
+    font-size: 1em;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    border-radius: 6px;
+    padding: 2%;
+}
+
+#calltoactionheading {
+    color: white;
+    font-size: 1em;
+    margin-left: 50px;
+}
+
+#calltoactiontext {
+    color: white;
+    font-family: 'RobotoThin';
+    margin-left: 50px;
+    max-width: 250px;
+}
+
+.signupbutton {
+    background-color: rgb(57, 141, 224);
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 8px;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 13px;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+footer {
+    background-color: darkolivegreen;
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 0.75em;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
