@@ -32,7 +32,7 @@ function getPostsFromJsonPlaceholder() {
         start = start + toLoad;
         loading = false;
     }) .catch(error => {
-        console.error('Error', error);
+        console.error('Error while fetching post data from api.', error);
         loading = false;
     });
 }
