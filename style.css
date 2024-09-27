@@ -109,7 +109,7 @@ h2 {
 }
 
 .firstimage {
-    border: 2px solid blue;
+    border: 2px solid rgb(57, 141, 224);
     border-radius: 5px;
 }
 
@@ -127,7 +127,7 @@ h2 {
 }
 
 .secondimage {
-    border: 2px solid blue;
+    border: 2px solid rgb(57, 141, 224);
     border-radius: 5px;
 }
 
@@ -188,6 +188,38 @@ cite {
     float: right;
     cursor: pointer;
     margin-right: 30px;
+}
+
+#jasonplaceholder {
+    text-align: center;
+    min-width: 800px;
+    margin: 5%;
+}
+
+.fetchedElement {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'RobotoItalic', sans-serif;
+    font-size: 0.75em;
+    max-width: 30%;
+    padding: 1%;
+}
+
+#forecasts {
+    text-align: center;
+    min-width: 800px;
+}
+
+.forecastforlocation {
+    text-align: center;
+    font-family: 'RobotoItalic', sans-serif;
+    font-size: 0.75em;
+}
+
+#forecastinfo {
+    text-align: center;
+    font-family: 'RobotoItalic', sans-serif;
+    font-size: 0.75em;
 }
 
 footer {
