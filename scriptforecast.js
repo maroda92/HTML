@@ -65,7 +65,7 @@ function getCurrentWeatherFromMeteo() {
                     loading = false;
                 }
         }) .catch(error => {
-            console.error('Error', error);
+            console.error('Error while fetching weather data from api.', error);
             //If an error occur, the counter is still incremented, so that
             //the function know when all fetches are done and the data can
             //be displayed.
